@@ -1,52 +1,23 @@
 #include <iostream>
-#include "Enums.hpp"
-#include "PokemonStats.hpp"
+#include "Pokedex.hpp"
 #include "PokemonCard.hpp"
 #include "CardBinder.hpp"
 
 int main() {
-    std::cout << "=== Pokemon Card Collector ===" << std::endl;
+    std::cout << "=== Pokemon Card Collection ===" << std::endl;
 
-    // ===================================================
-    // Create your PokemonCard objects here
-    // Example: PokemonCard charizard("Charizard", 120, PokemonType::Fire, Rarity::Rare, PokemonStats{80, 65, 100});
-    // ===================================================
+    std::cout << std::endl << "--- Pokedex ---" << std::endl;
 
+    std::cout << std::endl << "--- Cards ---" << std::endl;
 
-    // ===================================================
-    // Create your CardBinder and add cards
-    // ===================================================
+    std::cout << std::endl << "--- Empty Binder ---" << std::endl;
 
+    std::cout << std::endl << "--- Most Powerful Card ---" << std::endl;
 
-    std::cout << std::endl;
-    std::cout << "--- Binder Info ---" << std::endl;
-    /* Test getBinderInfo() here */
+    std::cout << std::endl << "--- Fire Type Cards ---" << std::endl;
 
+    std::cout << std::endl << "--- Water Type Cards ---" << std::endl;
 
-    std::cout << std::endl;
-    std::cout << "--- Most Powerful Card ---" << std::endl;
-    /* Test getMostPowerful() here */
-
-
-    std::cout << std::endl;
-    std::cout << "--- Filter by Type ---" << std::endl;
-    /* Test getCardsByType() here - try a type that has cards AND a type that doesn't */
-
-
-    std::cout << std::endl;
-    std::cout << "--- Individual Card Tests ---" << std::endl;
-    /* Test getName(), getType(), getCardInfo(), getPowerScore() here */
-
-
-    std::cout << std::endl;
-    std::cout << "--- Enum Helper Tests ---" << std::endl;
-    /* Test typeToString() and rarityToString() here */
-
-
-    std::cout << std::endl;
-    std::cout << "--- Edge Cases ---" << std::endl;
-    /* Test edge cases here: empty binder, type with no matches, etc. */
-
-
+    std::cout << std::endl << "=== End of Tests ===" << std::endl;
     return 0;
 }
