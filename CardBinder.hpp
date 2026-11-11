@@ -9,6 +9,6 @@ class CardBinder {
 
     public:
         void addCard(const PokemonCard& card);
-        std::string getMostPowerful() const;
+        PokemonCard getMostPowerful() const;
         std::string getCardsByType(PokemonType type) const;
 };
